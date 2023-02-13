@@ -36,36 +36,33 @@ section{
 article{
     margin: auto;
     background-color: rgb(255, 255, 255);
-    height: 97px;
-    width: 352px;
+    height: 145px;
+    width: 560px;
     border-radius: 6px;
-    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.171);
+    box-shadow: 2px 2px 4px rgb(0 0 0 / 17%);
 }
 div {
-    width: 733px;
-    height: 117px;
+    width: 1086px;
+    height: 171px;
     display: flex;
     text-align: center;
-    margin: auto;
-    
-}
+    margin: auto;}
 aside{
-        top: 15%;
-        position: relative;
-        display: inline-block;
-        background-color: white;
-    }
+    top: 9%;
+    position: relative;
+    display: inline-block;
+    background-color: white;
+    left: -17%;
+}
 
 img{
-    width: 48px;
-    height: 48px;
+    width: 58px;
+    height: 58px;
     display: inline-block;
     background-color: white;
     top: 50%;
     left: 50%;
-    transform: translate(-56%, 20%);
-    
-    
+    transform: translate(-206%, 29%);
 }
 article:hover {
     border: 2px solid rgba(245, 245, 245, 0.603);
@@ -76,13 +73,11 @@ article:hover {
 article > h2, p{
     display: inline-block;
     background-color: white;
-    width: 200px;
-
-   
-}
+    width: 200px;}
+    
 article > aside >  h2 {
     font-family: subtitulo;
-    font-size: 1em;
+    font-size: 1.2em;
     position: relative;
     text-align: left;
     background-color: white;
@@ -93,7 +88,7 @@ article > aside >  h2 {
     width: max-content;
 }
 article > aside > p {
-    font-size: 0.8em;
+    font-size: 1em;
     text-align: left;
     position: relative;
     width: 200px;
