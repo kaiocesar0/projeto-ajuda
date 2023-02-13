@@ -1,10 +1,22 @@
 @charset "utf-8";
 
+@font-face {
+    font-family: 'subtitulo';
+    src: url(../font/Typekiln\ -\ EloquiaText-ExtraLight.otf) format(opentype);
+}
+@font-face {
+    font-family: 'titulo';
+    src: url(../font/Typekiln\ -\ EloquiaDisplay-ExtraBold.otf) format(opentype);
+}
+@font-face {
+    font-family: 'havik';
+    src: url(../font/GraphikRegular.otf) format(opentype);
+}
 *{
     margin: 0;
     padding: 0;
     font-family: Arial, Helvetica, sans-serif;
-    background: rgba(235, 235, 235, 0.411);
+    background: rgba(247, 245, 245, 0.411);
 }
 header{
     padding: 30px;
@@ -22,31 +34,77 @@ section{
 
 }
 article{
-    margin: 20px;
-    padding: 10px;
-    display: inline-block;
-    width: 450px;
-    height: 100px;
+    margin: auto;
     background-color: rgb(255, 255, 255);
+    height: 97px;
+    width: 352px;
+    border-radius: 6px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.171);
 }
+div {
+    width: 733px;
+    height: 117px;
+    display: flex;
+    text-align: center;
+    margin: auto;
+    
+}
+aside{
+        top: 15%;
+        position: relative;
+        display: inline-block;
+        background-color: white;
+    }
+
 img{
-    width: 70px;
-    height: 70px;
+    width: 48px;
+    height: 48px;
     display: inline-block;
     background-color: white;
+    top: 50%;
+    left: 50%;
+    transform: translate(-56%, 20%);
+    
+    
 }
+article:hover {
+    border: 2px solid rgba(245, 245, 245, 0.603);
+    transform: translate(-5px, -5px);
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.418);
+    transition: transform 0.3s, border 0.2s;}
+
 article > h2, p{
     display: inline-block;
     background-color: white;
+    width: 200px;
+
+   
 }
-article > h2 {
-    font-size: 1.2em;
-}
-article > p {
+article > aside >  h2 {
+    font-family: subtitulo;
     font-size: 1em;
+    position: relative;
+    text-align: left;
+    background-color: white;
+    background-color: #0E6EC7;
+    color: white;
+    padding: 5px;
+    border-radius: 3px;
+    width: max-content;
 }
-div {
-    width: 1027px;
-    height: 160px;
-    margin-left: auto;
-    margin-right: auto }
+article > aside > p {
+    font-size: 0.8em;
+    text-align: left;
+    position: relative;
+    width: 200px;
+    margin-top: 10px;
+    background-color: white;
+    font-family: havik;
+}
+ a {
+    text-decoration: none;
+    color: black;
+    margin: 5px;
+    margin-left: 9px;
+    margin-right: 9px;
+}
