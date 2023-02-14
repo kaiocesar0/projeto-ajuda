@@ -1,0 +1,129 @@
+@charset "!utf-8";
+
+@font-face {
+    font-family: 'subtitulo';
+    src: url(../font/Typekiln\ -\ EloquiaText-ExtraLight.otf) format(opentype);
+}
+@font-face {
+    font-family: 'titulo';
+    src: url(../font/Typekiln\ -\ EloquiaDisplay-ExtraBold.otf) format(opentype);
+}
+@font-face {
+    font-family: 'havik';
+    src: url(../font/GraphikRegular.otf) format(opentype);
+}
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background: rgba(247, 245, 245, 0.411);
+}
+header{
+    padding: 30px;
+    text-align: center;
+
+}
+main {
+    
+    max-width: 90vw;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+section{
+
+
+}
+article{
+    margin: auto;
+    background-color: rgb(255, 255, 255);
+    border-radius: 6px;
+    box-shadow: 2px 2px 4px rgb(0 0 0 / 17%);
+    min-width: 33vw;
+    min-height: 140px;
+}
+div {
+    width: 90.2vw;
+    height: 171px;
+    display: flex;
+    text-align: center;
+    min-width: 966px;
+    min-height: 187px;
+    margin: auto;
+    flex-direction: column-reverse;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+aside{
+    top: 12%;
+    position: relative;
+    display: inline-block;
+    background-color: white;
+    left: 0%;
+    min-width: 25vw;
+    min-height: 13vh;
+    margin: auto;
+    text-align: center;
+
+}
+span {
+    display: inline-block;
+    width: 4vw;
+
+    height: 7vh;
+    transform: translate(-8px, -22px);
+}
+
+img{
+    height: 6vh;
+    display: inline-block;
+    background-color: white;
+    top: 50%;
+    left: 50%;
+
+    max-width: 6vw;
+    min-width: 49px;
+    min-height: 49px;
+}
+article:hover {
+    border: 2px solid rgba(245, 245, 245, 0.603);
+    transform: translate(-5px, -5px);
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.418);
+    transition: transform 0.3s, border 0.2s;}
+
+article > h2, p{
+    display: inline-block;
+    background-color: white;
+    }
+    
+article > aside >  h2 {
+    font-family: subtitulo;
+    font-size: 1.2em;
+    position: relative;
+    text-align: left;
+    background-color: white;
+    background-color: #0E6EC7;
+    color: white;
+    padding: 5px;
+    border-radius: 3px;
+    width: max-content;
+}
+article > aside > p {
+    font-size: 1em;
+    text-align: left;
+    position: relative;
+   
+    margin-top: 10px;
+    background-color: white;
+    font-family: havik;
+    max-width: 26vw;
+}
+ a {
+    text-decoration: none;
+    color: black;
+    margin: 5px;
+    margin-left: 9px;
+    margin-right: 9px;
+}
