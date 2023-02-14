@@ -39,16 +39,16 @@ article{
     background-color: rgb(255, 255, 255);
     border-radius: 6px;
     box-shadow: 2px 2px 4px rgb(0 0 0 / 17%);
-    min-height: 174px;
+    min-height: 154px;
     min-width: 500px;
 }
 div {
     width: 90.2vw;
-    height: 197px;
+    height: 183px;
     display: flex;
     text-align: center;
     min-width: 999px;
-    min-height: 192px;
+    min-height: 165px;
     margin: auto;
     flex-direction: column-reverse;
     flex-wrap: wrap;
@@ -115,7 +115,7 @@ article > aside > p {
     background-color: white;
     font-family: havik;
     max-width: 80px;
-    min-width: 338px;
+    min-width: 451px;
 }
  a {
     text-decoration: none;
