@@ -39,17 +39,16 @@ article{
     background-color: rgb(255, 255, 255);
     border-radius: 6px;
     box-shadow: 2px 2px 4px rgb(0 0 0 / 17%);
-
-    min-height: 140px;
+    min-height: 174px;
     min-width: 500px;
 }
 div {
     width: 90.2vw;
-    height: 171px;
+    height: 197px;
     display: flex;
     text-align: center;
-    min-width: 966px;
-    min-height: 187px;
+    min-width: 999px;
+    min-height: 192px;
     margin: auto;
     flex-direction: column-reverse;
     flex-wrap: wrap;
@@ -66,7 +65,8 @@ aside{
     min-height: 13vh;
     margin: auto;
     text-align: center;
-    min-width: 39vw;
+    min-width: 263px;
+    max-width: 555px;
 }
 span {
     display: inline-block;
@@ -77,15 +77,12 @@ span {
 }
 
 img{
-    height: 6vh;
+    height: 43px;
     display: inline-block;
     background-color: white;
     top: 50%;
     left: 50%;
-
-    max-width: 6vw;
-    min-width: 49px;
-    min-height: 49px;
+    width: 43px;
 }
 article:hover {
     border: 2px solid rgba(245, 245, 245, 0.603);
@@ -117,8 +114,8 @@ article > aside > p {
     margin-top: 10px;
     background-color: white;
     font-family: havik;
-    max-width: 26vw;
-    min-width: 36vw;
+    max-width: 80px;
+    min-width: 338px;
 }
  a {
     text-decoration: none;

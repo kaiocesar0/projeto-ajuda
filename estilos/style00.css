@@ -39,8 +39,9 @@ article{
     background-color: rgb(255, 255, 255);
     border-radius: 6px;
     box-shadow: 2px 2px 4px rgb(0 0 0 / 17%);
-    min-width: 33vw;
+
     min-height: 140px;
+    min-width: 500px;
 }
 div {
     width: 90.2vw;
@@ -60,18 +61,17 @@ aside{
     top: 12%;
     position: relative;
     display: inline-block;
-    background-color: white;
+    background-color: rgba(255, 255, 255, 0);
     left: 0%;
-    min-width: 25vw;
     min-height: 13vh;
     margin: auto;
     text-align: center;
-
+    min-width: 39vw;
 }
 span {
     display: inline-block;
     width: 4vw;
-
+    background-color: rgba(255, 255, 255, 0);
     height: 7vh;
     transform: translate(-8px, -22px);
 }
@@ -114,11 +114,11 @@ article > aside > p {
     font-size: 1em;
     text-align: left;
     position: relative;
-   
     margin-top: 10px;
     background-color: white;
     font-family: havik;
     max-width: 26vw;
+    min-width: 36vw;
 }
  a {
     text-decoration: none;
