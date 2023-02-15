@@ -67,7 +67,7 @@ aside{
     text-align: center;
     min-width: 263px;
     max-width: 555px;
-}
+    padding: 8px 7px 4px 3px;}
 span {
     display: inline-block;
     width: 4vw;
@@ -87,7 +87,7 @@ img{
 article:hover {
     border: 2px solid rgba(245, 245, 245, 0.603);
     transform: translate(-5px, -5px);
-    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.418);
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.158);
     transition: transform 0.3s, border 0.2s;}
 
 article > h2, p{

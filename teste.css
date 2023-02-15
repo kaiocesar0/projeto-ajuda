@@ -67,6 +67,7 @@ aside{
     text-align: center;
     min-width: 263px;
     max-width: 555px;
+    padding: 8px 7px 4px 3px;
 }
 span {
     display: inline-block;
