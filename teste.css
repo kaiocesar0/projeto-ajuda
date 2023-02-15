@@ -24,8 +24,7 @@ header{
 
 }
 main {
-    
-    max-width: 90vw;
+
     margin-left: auto;
     margin-right: auto;
 
@@ -43,7 +42,7 @@ article{
     min-width: 500px;
 }
 div {
-    width: 90.2vw;
+    max-width: 1131px;
     height: 194px;
     display: flex;
     text-align: center;
